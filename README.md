@@ -14,7 +14,7 @@ Summary: Acquisition packages for XPD-28 beamline at BNL
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/xpdacq-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xpdacq-feedstock)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/xpdAcq-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xpdAcq-feedstock)
 
 Current release info
 ====================
