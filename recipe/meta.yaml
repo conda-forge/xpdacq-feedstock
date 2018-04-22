@@ -33,6 +33,7 @@ requirements:
     - xpdsim
     - databroker
     - ophyd
+    - xpdconf
  
 
 test:
