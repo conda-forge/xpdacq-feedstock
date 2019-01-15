@@ -26,7 +26,7 @@ requirements:
     - pyyaml
     - pandas
     - xlrd
-    - pyfai
+    - pyfai ==0.15
     - ipython
     - bluesky
     - xpdan
