@@ -19,7 +19,7 @@ Current build status
 ====================
 
 All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/xpdAcq-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/xpdAcq-feedstock)
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/xpdacq-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/xpdacq-feedstock)
 
 Current release info
 ====================
