@@ -1,6 +1,6 @@
 {% set name = "xpdacq" %}
-{% set version = "0.10.1" %}
-{% set sha256 = "ec42f81626061330715a3f8014a9407b7e1261cda2ebce0edf3346c24586ca66" %}
+{% set version = "0.10.2" %}
+{% set sha256 = "0154aa08098d9824b95028a43c8d91966b392eefd0cac1d7046dc9f2716ae025" %}
 
 package:
   name: {{ name|lower }}
