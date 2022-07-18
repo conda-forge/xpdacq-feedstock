@@ -1,6 +1,6 @@
 {% set name = "xpdacq" %}
-{% set version = "1.0.0" %}
-{% set sha256 = "a020d7a409364fed269809554896b725b56a02608362af8f5e4ebb4dce85e707" %}
+{% set version = "1.1.0" %}
+{% set sha256 = "1a0a32ebdbd8ad55c9b3b2aae049fa253ff88641ae00318bf8efd586deb8e80c" %}
 
 package:
   name: {{ name|lower }}
@@ -18,22 +18,25 @@ build:
 
 requirements:
   build:
-    - python >=3
+    - python >=3.8
     - pip
   run:
-    - python >=3
-    - numpy
-    - pyyaml
-    - pandas
-    - xlrd
-    - pyfai
-    - ipython
+    - python >=3.8
     - bluesky
-    - xpdan
-    - xpdsim
+    - bluesky-darkframes
+    - frozendict
     - databroker
+    - ipython
+    - numpy
+    - openpyxl
     - ophyd
+    - pandas
+    - pyfai
+    - pyopencl
+    - pyyaml
+    - xlrd
     - xpdconf
+    - xpdsim
 
 
 test:
@@ -47,8 +50,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'Acquisition packages for XPD-28 beamline at BNL'
-
+  summary: 'Acquisition packages for 28-ID beamlines at BNL'
   doc_url: http://xpdacq.github.io/xpdAcq/
   dev_url: https://github.com/xpdAcq/xpdAcq
 
