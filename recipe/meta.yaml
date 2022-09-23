@@ -36,7 +36,7 @@ requirements:
     - pyyaml
     - tifffile
     - xlrd
-    - xpdconf >=0.4.5
+    - xpdconf >=0.4.6
     - xpdsim >=0.4.3
 
 
