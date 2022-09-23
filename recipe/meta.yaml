@@ -17,14 +17,15 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8, <3.10
+    - python >=3.8
 
   run:
-    - python >=3.8, <3.10
+    - python >=3.8
     - bluesky
     - bluesky-darkframes
+    - databroker
+    - fabio
     - frozendict
-    - databroker <2.0.0a
     - ipython
     - numpy
     - openpyxl
@@ -33,9 +34,10 @@ requirements:
     - pyfai
     - pyopencl
     - pyyaml
+    - tifffile
     - xlrd
     - xpdconf >=0.4.5
-    - xpdsim
+    - xpdsim >=0.4.3
 
 
 test:
