@@ -1,5 +1,5 @@
 {% set name = "xpdacq" %}
-{% set version = "1.1.2" %}
+{% set version = "1.1.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xpdacq-{{ version }}.tar.gz
-  sha256: 7ff33456cf9798aa7404fbe5a4bb8680bbe8b0ecfe27094f2dec09e6b319b934
+  sha256: be39446e15a055956b8f37c3556d7381f573383f9205e651388cbd1ad52c5216
 
 build:
   noarch: python
